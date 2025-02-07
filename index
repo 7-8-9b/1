@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chính</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://raw.githubusercontent.com/7-8-9b/1/refs/heads/main/2.png" alt="Ảnh trên" width="400">
+    
+    <div class="buttons">
+        <a href="https://google.com" target="_blank">Đăng Ký</a>
+        <a href="https://google.com" target="_blank">Đăng Nhập</a>
+    </div>
+    
+    <img src="https://raw.githubusercontent.com/7-8-9b/1/refs/heads/main/1.jpg" alt="Ảnh dưới" width="400">
+</body>
+</html>
